@@ -41,7 +41,9 @@ function connectionOK(){
 
 function ledsOK(){
   leds.send("/info");
-  display_temp(current_temp,true);
+  setTimeout(function(){
+    display_temp(current_temp,true);
+  },2000);
 }
 
 function readSensor(event){
