@@ -11,7 +11,7 @@ I'm using rwebsocket to manage reconnection, all the alternative failed to works
 i rush thought its) or use syntax that makes them incompatible.
 
 # Build
-Go to [temphum github](https://github.com/madnerdorg/temphum) to learn how to build the device.
+Go to [temphum github](https://github.com/madnerdorg/temphum) to learn how to build the device.    
 Go to [leds github](https://github.com/madnerdorg/leds) to learn how to build the device.
 # Install
 You will need nodejs
