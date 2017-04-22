@@ -6,7 +6,7 @@ confort = 23;
 hot = 28;
 veryhot = 32;
 
-leds = new WebSocket("ws://localhost:42001");
+leds = new WebSocket("ws://127.0.0.1:42001");
 leds.onopen = ledsOK;
 current_humidity = null;
 current_temp = null; 
@@ -14,7 +14,7 @@ first_data = true;
 data_timing = 1000;
 data_point = 0;
 
-sensor = new WebSocket("ws://localhost:42004");
+sensor = new WebSocket("ws://127.0.0.1:42004");
 sensor.onmessage = readSensor;
 sensor.onopen = connectionOK;
 sensor.onclose = ledsFailed;
